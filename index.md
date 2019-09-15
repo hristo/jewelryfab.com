@@ -1,3 +1,11 @@
+{% for post in site.posts %}
+<article>
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+{{ post.content }}
+</article>
+{% endfor %}
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hristo/jewelryfab.com/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
