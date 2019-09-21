@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "How to design a replacement light fixture."
+author: Hristo
 ---
 
-_NOTE: You have to make sure what you make is safe for use. We can not guarantee that this design is fit for any specific purpose. Use your judgement because we are not liable for any damages or harm that may come from using this information._
-
 **OK, this one is neither a piece of jewelry**, nor particularly pretty. However it illustrates the size of objects you can print and also demonstrates an easy way of designing parts that are meant to fit together. We will develop this approach for making pieces of jewelry in follow-up posts.
+
+_NOTE: You have to make sure what you make is safe for use. We can not guarantee that this design is fit for any specific purpose. Use your judgement because we are not liable for any damages or harm that may come from using this information._
 
 On a very basic level, the fixture is just a shell that attaches to the lamp post, contains and covers the light bulb, lets heat escape (important!), and lets light through either directly or as it passes through a translucent medium.
 
