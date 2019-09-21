@@ -25,3 +25,5 @@ If you structure the code well, with separate modules for the top and bottom, yo
 Finally, if you are designing for actual use, you can print and test. In our case, we use an LED light bulb which emits little heat and is also very efficient. The printout uses PLA which should not have heat issues in this specific scenario. In any case, *pay attention to product safety because we can not guarantee your specific use will be safe*.
 
 ![Test final printout.](/images_posts/light_fixture_actual.jpg)
+
+You can [get the code here](/code/light_fixture.scad).
