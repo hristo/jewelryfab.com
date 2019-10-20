@@ -1,3 +1,7 @@
+// git clone git@github.com:openscad/scad-utils.git
+// git clone git@github.com:openscad/list-comprehension-demos.git
+// cp list-comprehension-demos/sweep.scad <MYPROJECTDIR>
+
 use <scad-utils/transformations.scad>
 use <scad-utils/shapes.scad>
 use <sweep.scad>
