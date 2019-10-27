@@ -34,7 +34,7 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p><em>Advisory: You have to ensure that what you make based on any designs here is safe for use. Safety is your responsibility; use your judgement; we do not claim that any of the designs here are fit for any specific purpose._</em></p>
+        <p><em>Advisory: You have to ensure that what you make based on any designs here is safe for use. Safety is your responsibility; use your judgement; we do not claim that any of the designs here are fit for any specific purpose.</em></p>
 
         {% assign rawtags = "" %}
         {% for post in site.posts %}
@@ -56,10 +56,10 @@
         {% endfor %}
 
         {% for tag in tags %}
-          {{ tag }}<br />
+          {{ tag }}&nbsp;
           {% for post in site.posts %}
             {% if post.tags contains tag %}
-              <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small></a><br />
+              <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small></a>&nbsp;
             {% endif %}
           {% endfor %}
         {% endfor %}
