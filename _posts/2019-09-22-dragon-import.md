@@ -2,6 +2,7 @@
 layout: post
 title: "Importing an STL file to attach to a ring or bracelet."
 author: Hristo
+tags: [jewelry,bracelets,rings]
 ---
 
 **We will now see how to combine an existing 3D model** with a wearable jewelry design that you create in OpenSCAD. This technique is very versatile as it lets you use an existing design to make your own creation stand out.

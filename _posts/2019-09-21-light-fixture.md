@@ -2,6 +2,7 @@
 layout: post
 title: "How to design a replacement light fixture."
 author: Hristo
+tags: [misc]
 ---
 
 **OK, this one is neither a piece of jewelry**, nor particularly pretty. However it illustrates the size of objects you can print and also demonstrates an easy way of designing parts that are meant to fit together. We will develop this approach for making pieces of jewelry in follow-up posts.
