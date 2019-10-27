@@ -54,19 +54,19 @@
         {% endfor %}
 
         {% for tag in tags %}
-          <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+          <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
           <ul>
             {% for post in site.posts %}
             {% if post.tags contains tag %}
             <li>
-              <h3>
-                <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small></a>
-              </h3>
+              <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small></a>
             </li>
             {% endif %}
             {% endfor %}
           </ul>
         {% endfor %}
+
+        _Advisory: You have to ensure that what you make based on any designs here is safe for use. Safety is your responsibility; use your judgement; we do not claim that any of the designs here are fit for any specific purpose._
       </header>
       <section>
 
@@ -74,7 +74,6 @@
 
       </section>
       <footer>
-        _Advisory: You have to ensure that what you make based on any designs here is safe for use. Safety is your responsibility; use your judgement; we do not claim that any of the designs here are fit for any specific purpose._
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
