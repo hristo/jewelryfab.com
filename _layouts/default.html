@@ -29,7 +29,7 @@
         {% endif %}
 
         {% if site.logo %}
-        <a href="{{"/" | absolute_url}}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+        <p><a href="{{"/" | absolute_url}}"><img src="{{site.logo | relative_url}}" alt="Logo" /></a></p>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -56,12 +56,7 @@
         {% endfor %}
 
         {% for tag in tags %}
-          {{ tag }}&nbsp;
-          {% for post in site.posts %}
-            {% if post.tags contains tag %}
-              <a href="{{ post.url }}"><small>{{ post.date | date_to_string }}</small></a>&nbsp;
-            {% endif %}
-          {% endfor %}
+          {{ tag }}
         {% endfor %}
       </header>
       <section>
